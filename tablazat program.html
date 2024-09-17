@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body id="ize">
+    
+    
+
+    
+    <script>
+        function generateTable() {
+        const tbl = document.createElement("table");
+        const tblBody = document.createElement("tbody");
+         for (let i = 0; i < 6; i++) {
+            const row = document.createElement("tr");
+
+            for (let j = 0; j < 6; j++) {
+            const cell = document.createElement("td");
+            row.appendChild(cell);
+            }
+
+
+            tblBody.appendChild(row);
+        }
+
+
+        tbl.appendChild(tblBody);
+
+        
+
+        
+        }
+        document.getElementById("ize").innerHTML = tbl;
+        document.getElementById("ize").style.backgroundColor="red";
+        document.getElementById("ize").style.border = "2px solid black";
+    </script>
+</body>
+</html>
