@@ -1,0 +1,30 @@
+<!--urlap ami beker egy nevet, egy szul datumot, gombnyomasra eldonti hogy hany eves a szemely
+hany nap mulva lesz a szulinapja-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        <label for="nev">Név: </label>
+        <input type="text" id="nev" name="nev" ><br>
+        <label for="szulnev">Születési év: </label>
+        <input type="date" id="szulnev" name="szulnev"><br>
+        <input type="submit" value="Küldés" onclick="szamol()">
+      </form>
+      <p id="szamit"></p>
+      <script>
+        function szamol()
+        {
+            const most = new Date();
+            const ev = document.getElementById("szulnev")
+            document.getElementById("szamit").innerHTML= most;
+            
+        }
+      </script>
+    
+</body>
+</html>

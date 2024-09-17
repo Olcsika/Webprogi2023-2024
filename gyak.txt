@@ -1,0 +1,2 @@
+// két bevuiteli lehetőseg 1-20 ig és egy olyan megjelenitett tablazat szeru dolgot ami
+ a szorzotabla szero ahogy valtozik a bevitel ugy valtozzon a megjelenitett resz 
