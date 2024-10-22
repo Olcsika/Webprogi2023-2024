@@ -1,0 +1,15 @@
+D:\munkakönyvtár\Lébár\Webprogi2023-2024\gyakorlas lorem ipsum\gyakorlas lorem ipsum\bin\Debug\net8.0\gyakorlas lorem ipsum.exe
+D:\munkakönyvtár\Lébár\Webprogi2023-2024\gyakorlas lorem ipsum\gyakorlas lorem ipsum\bin\Debug\net8.0\gyakorlas lorem ipsum.deps.json
+D:\munkakönyvtár\Lébár\Webprogi2023-2024\gyakorlas lorem ipsum\gyakorlas lorem ipsum\bin\Debug\net8.0\gyakorlas lorem ipsum.runtimeconfig.json
+D:\munkakönyvtár\Lébár\Webprogi2023-2024\gyakorlas lorem ipsum\gyakorlas lorem ipsum\bin\Debug\net8.0\gyakorlas lorem ipsum.dll
+D:\munkakönyvtár\Lébár\Webprogi2023-2024\gyakorlas lorem ipsum\gyakorlas lorem ipsum\bin\Debug\net8.0\gyakorlas lorem ipsum.pdb
+D:\munkakönyvtár\Lébár\Webprogi2023-2024\gyakorlas lorem ipsum\gyakorlas lorem ipsum\obj\Debug\net8.0\gyakorlas lorem ipsum.GeneratedMSBuildEditorConfig.editorconfig
+D:\munkakönyvtár\Lébár\Webprogi2023-2024\gyakorlas lorem ipsum\gyakorlas lorem ipsum\obj\Debug\net8.0\gyakorlas lorem ipsum.AssemblyInfoInputs.cache
+D:\munkakönyvtár\Lébár\Webprogi2023-2024\gyakorlas lorem ipsum\gyakorlas lorem ipsum\obj\Debug\net8.0\gyakorlas lorem ipsum.AssemblyInfo.cs
+D:\munkakönyvtár\Lébár\Webprogi2023-2024\gyakorlas lorem ipsum\gyakorlas lorem ipsum\obj\Debug\net8.0\gyakorlas lorem ipsum.csproj.CoreCompileInputs.cache
+D:\munkakönyvtár\Lébár\Webprogi2023-2024\gyakorlas lorem ipsum\gyakorlas lorem ipsum\obj\Debug\net8.0\gyakorlas lorem ipsum.sourcelink.json
+D:\munkakönyvtár\Lébár\Webprogi2023-2024\gyakorlas lorem ipsum\gyakorlas lorem ipsum\obj\Debug\net8.0\gyakorlas lorem ipsum.dll
+D:\munkakönyvtár\Lébár\Webprogi2023-2024\gyakorlas lorem ipsum\gyakorlas lorem ipsum\obj\Debug\net8.0\refint\gyakorlas lorem ipsum.dll
+D:\munkakönyvtár\Lébár\Webprogi2023-2024\gyakorlas lorem ipsum\gyakorlas lorem ipsum\obj\Debug\net8.0\gyakorlas lorem ipsum.pdb
+D:\munkakönyvtár\Lébár\Webprogi2023-2024\gyakorlas lorem ipsum\gyakorlas lorem ipsum\obj\Debug\net8.0\gyakorlas lorem ipsum.genruntimeconfig.cache
+D:\munkakönyvtár\Lébár\Webprogi2023-2024\gyakorlas lorem ipsum\gyakorlas lorem ipsum\obj\Debug\net8.0\ref\gyakorlas lorem ipsum.dll

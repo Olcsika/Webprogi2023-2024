@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Feladatok: </h1>
+    <br>
+    <H2>2. feladat</H2>
+    <p><a href="https://kiszervezettmarketing.hu/weboldal-keszites/programozas-alapjai/">- Kiszervezett Marketing</a></p>
+    <p><a href="https://www.w3schools.com/">- W3Schools</a></p>
+    <h2>3. feladat</h2>
+    <h3>Az aktuális idő: <div id="ora"></div></h3>
+    
+    <button onclick="frissitIdo()">Idő frissítése</button>
+    <br>
+    <h2>4. feladat</h2>
+    <button onclick="teve()">Állat gomb</button>
+    <img id="teveId" src="teve.jpg" >
+    <h2>5. feladat</h2>
+    <button onclick="szamBeker()">Adj meg 5 számot</button>
+    <ul id="eredmenyek"></ul>
+    <h2>6. feladat</h2>
+    <button onclick="tavBeker()">Táv Bekérő</button>
+    <p class="atv"></p>
+    <h2>10. feladat</h2>
+    <button onclick="mini()">Adj meg 5 számot</button>
+    <p id="eredmeny"></p>
+
+
+    
+    <style>
+        body{
+            font-family: 'Times New Roman';
+            text-align: center ;
+            background-image: url(johat.jpg);
+            color: white;
+            font-size: larger;
+        }
+        a{
+            color: yellow;
+        }
+        img{
+            transform: rotate(center);
+        }
+        #teveId {
+            display: none;
+            margin-top: 10px;
+            max-width: 150px;
+        }
+    </style>
+    <script>
+        //3. feladat
+        function azIdo() {
+            const most = new Date();
+            return most.toLocaleTimeString();
+        }
+        function aktIdo() {
+            document.getElementById("ora").innerText = azIdo();
+        }
+        function frissitIdo() {
+            aktIdo();
+        }
+        window.onload = aktIdo;
+        // 4. feladat
+        function teve() {
+            const teveId = document.getElementById("teveId");
+            teveId.style.display = "block";
+        }
+        //5.feladat
+        function szamBeker() {
+            let szamok = [];
+            for (let i = 1; i <= 5; i++) {
+                let szam = parseInt(prompt(i + ". szám:"));
+                szamok.push(szam);
+            }
+            KiIrat(szamok);
+
+            function KiIrat(numbers) {
+            const listacska = document.getElementById("eredmenyek");
+            listacska.innerHTML = "";
+
+            szamok.forEach(function(szam) {
+                const negyzet = szam * szam;
+                const db = document.createElement("li");
+                db.textContent = szam + " négyzete: " + negyzet;
+                listacska.appendChild(db);
+            });
+            }
+        }
+        function tavBeker(){
+            let tav = [];
+                let tavol = parseInt(prompt("A távolság centiméterben:"));
+                tav.push(tavol);
+            
+            console.log(tav)
+            const atvalto = tav/100;
+            const ize = document.getElementsByClassName(atv);
+            ize.innerHTML = atvalto;
+        }
+        function mini() {
+            let szamok = [];
+            for (let i = 1; i <= 5; i++) {
+                let beker = parseInt(prompt(i + ". szám:"));
+                szamok.push(beker);
+            }
+            const minimum = Math.min(...szamok);
+            kisSzam(minimum);
+        }
+
+        function kisSzam(minimum) {
+            
+            const kesz = document.getElementById("eredmeny");
+            kesz.textContent = "A legkisebb szám: " + minimum;
+        }
+            
+           
+        
+        
+       
+    </script>
+   
+    
+</body>
+</html>

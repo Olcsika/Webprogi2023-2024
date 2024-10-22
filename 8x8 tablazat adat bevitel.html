@@ -1,0 +1,43 @@
+<!--van egy tablazat 8x8 letrehoz javascriptel ebbe a tablazatba lehessen bevinni adatokat-->
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="tablazat()" onclick="ranyom()">
+    
+<script>
+    function tablazat(){
+        let szam = 8;
+        let tabla = document.createElement("table");
+        let tablatest = document.createElement("tbody")
+        for(let i = 0; i< szam; i++)
+        {
+            const sor = document.createElement("tr");
+            for(let k = 0; k< szam; k++)
+            {
+                const cella = document.createElement("td")
+                sor.appendChild(cella)
+            }
+            tabla.appendChild(sor)
+        }
+        tabla.appendChild(tablatest)
+        document.body.appendChild(tabla)
+    
+    }
+    
+
+</script>
+<style>
+    td{
+        border: solid 1px black;
+        width: 65px;
+        height: 56px;
+        
+    }
+</style>
+</body>
+</html>

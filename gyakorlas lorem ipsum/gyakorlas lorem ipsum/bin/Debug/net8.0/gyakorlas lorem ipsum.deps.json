@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "gyakorlas lorem ipsum/1.0.0": {
+        "runtime": {
+          "gyakorlas lorem ipsum.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "gyakorlas lorem ipsum/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
