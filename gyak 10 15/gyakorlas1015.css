@@ -1,0 +1,11 @@
+table#tabla, table#tabla td{
+    border: 1px solid black;
+
+}
+table#tabla td{
+    width: 20px;
+    height: 20px;
+}
+.katintott{
+    background-color: black;
+}
