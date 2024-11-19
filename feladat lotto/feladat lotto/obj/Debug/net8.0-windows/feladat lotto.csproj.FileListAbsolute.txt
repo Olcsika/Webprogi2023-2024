@@ -1,0 +1,23 @@
+D:\munkakönyvtár\Lébár Olivér\Webprogi2023-2024\feladat lotto\feladat lotto\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\munkakönyvtár\Lébár Olivér\Webprogi2023-2024\feladat lotto\feladat lotto\obj\Debug\net8.0-windows\Window1.g.cs
+D:\munkakönyvtár\Lébár Olivér\Webprogi2023-2024\feladat lotto\feladat lotto\obj\Debug\net8.0-windows\App.g.cs
+D:\munkakönyvtár\Lébár Olivér\Webprogi2023-2024\feladat lotto\feladat lotto\obj\Debug\net8.0-windows\feladat lotto_MarkupCompile.cache
+D:\munkakönyvtár\Lébár Olivér\Webprogi2023-2024\feladat lotto\feladat lotto\obj\Debug\net8.0-windows\feladat lotto_MarkupCompile.lref
+D:\munkakönyvtár\Lébár Olivér\Webprogi2023-2024\feladat lotto\feladat lotto\bin\Debug\net8.0-windows\feladat lotto.exe
+D:\munkakönyvtár\Lébár Olivér\Webprogi2023-2024\feladat lotto\feladat lotto\bin\Debug\net8.0-windows\feladat lotto.deps.json
+D:\munkakönyvtár\Lébár Olivér\Webprogi2023-2024\feladat lotto\feladat lotto\bin\Debug\net8.0-windows\feladat lotto.runtimeconfig.json
+D:\munkakönyvtár\Lébár Olivér\Webprogi2023-2024\feladat lotto\feladat lotto\bin\Debug\net8.0-windows\feladat lotto.dll
+D:\munkakönyvtár\Lébár Olivér\Webprogi2023-2024\feladat lotto\feladat lotto\bin\Debug\net8.0-windows\feladat lotto.pdb
+D:\munkakönyvtár\Lébár Olivér\Webprogi2023-2024\feladat lotto\feladat lotto\obj\Debug\net8.0-windows\MainWindow.baml
+D:\munkakönyvtár\Lébár Olivér\Webprogi2023-2024\feladat lotto\feladat lotto\obj\Debug\net8.0-windows\Window1.baml
+D:\munkakönyvtár\Lébár Olivér\Webprogi2023-2024\feladat lotto\feladat lotto\obj\Debug\net8.0-windows\feladat lotto.g.resources
+D:\munkakönyvtár\Lébár Olivér\Webprogi2023-2024\feladat lotto\feladat lotto\obj\Debug\net8.0-windows\feladat lotto.GeneratedMSBuildEditorConfig.editorconfig
+D:\munkakönyvtár\Lébár Olivér\Webprogi2023-2024\feladat lotto\feladat lotto\obj\Debug\net8.0-windows\feladat lotto.AssemblyInfoInputs.cache
+D:\munkakönyvtár\Lébár Olivér\Webprogi2023-2024\feladat lotto\feladat lotto\obj\Debug\net8.0-windows\feladat lotto.AssemblyInfo.cs
+D:\munkakönyvtár\Lébár Olivér\Webprogi2023-2024\feladat lotto\feladat lotto\obj\Debug\net8.0-windows\feladat lotto.csproj.CoreCompileInputs.cache
+D:\munkakönyvtár\Lébár Olivér\Webprogi2023-2024\feladat lotto\feladat lotto\obj\Debug\net8.0-windows\feladat lotto.sourcelink.json
+D:\munkakönyvtár\Lébár Olivér\Webprogi2023-2024\feladat lotto\feladat lotto\obj\Debug\net8.0-windows\feladat lotto.dll
+D:\munkakönyvtár\Lébár Olivér\Webprogi2023-2024\feladat lotto\feladat lotto\obj\Debug\net8.0-windows\refint\feladat lotto.dll
+D:\munkakönyvtár\Lébár Olivér\Webprogi2023-2024\feladat lotto\feladat lotto\obj\Debug\net8.0-windows\feladat lotto.pdb
+D:\munkakönyvtár\Lébár Olivér\Webprogi2023-2024\feladat lotto\feladat lotto\obj\Debug\net8.0-windows\feladat lotto.genruntimeconfig.cache
+D:\munkakönyvtár\Lébár Olivér\Webprogi2023-2024\feladat lotto\feladat lotto\obj\Debug\net8.0-windows\ref\feladat lotto.dll
