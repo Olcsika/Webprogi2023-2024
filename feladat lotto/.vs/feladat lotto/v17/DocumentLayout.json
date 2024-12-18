@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\munkak\u00F6nyvt\u00E1r\\L\u00E9b\u00E1r Oliv\u00E9r\\Webprogi2023-2024\\feladat lotto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{37436D6F-10AF-4C92-89F0-57973F47A95D}|feladat lotto\\feladat lotto.csproj|d:\\munkak\u00F6nyvt\u00E1r\\l\u00E9b\u00E1r oliv\u00E9r\\webprogi2023-2024\\feladat lotto\\feladat lotto\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{37436D6F-10AF-4C92-89F0-57973F47A95D}|feladat lotto\\feladat lotto.csproj|solutionrelative:feladat lotto\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37436D6F-10AF-4C92-89F0-57973F47A95D}|feladat lotto\\feladat lotto.csproj|d:\\munkak\u00F6nyvt\u00E1r\\l\u00E9b\u00E1r oliv\u00E9r\\webprogi2023-2024\\feladat lotto\\feladat lotto\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37436D6F-10AF-4C92-89F0-57973F47A95D}|feladat lotto\\feladat lotto.csproj|solutionrelative:feladat lotto\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37436D6F-10AF-4C92-89F0-57973F47A95D}|feladat lotto\\feladat lotto.csproj|d:\\munkak\u00F6nyvt\u00E1r\\l\u00E9b\u00E1r oliv\u00E9r\\webprogi2023-2024\\feladat lotto\\feladat lotto\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{37436D6F-10AF-4C92-89F0-57973F47A95D}|feladat lotto\\feladat lotto.csproj|solutionrelative:feladat lotto\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37436D6F-10AF-4C92-89F0-57973F47A95D}|feladat lotto\\feladat lotto.csproj|d:\\munkak\u00F6nyvt\u00E1r\\l\u00E9b\u00E1r oliv\u00E9r\\webprogi2023-2024\\feladat lotto\\feladat lotto\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37436D6F-10AF-4C92-89F0-57973F47A95D}|feladat lotto\\feladat lotto.csproj|solutionrelative:feladat lotto\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Window1.xaml.cs",
+              "DocumentMoniker": "D:\\munkak\u00F6nyvt\u00E1r\\L\u00E9b\u00E1r Oliv\u00E9r\\Webprogi2023-2024\\feladat lotto\\feladat lotto\\Window1.xaml.cs",
+              "RelativeDocumentMoniker": "feladat lotto\\Window1.xaml.cs",
+              "ToolTip": "D:\\munkak\u00F6nyvt\u00E1r\\L\u00E9b\u00E1r Oliv\u00E9r\\Webprogi2023-2024\\feladat lotto\\feladat lotto\\Window1.xaml.cs",
+              "RelativeToolTip": "feladat lotto\\Window1.xaml.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwCQAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T13:02:06.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Window1.xaml",
+              "DocumentMoniker": "D:\\munkak\u00F6nyvt\u00E1r\\L\u00E9b\u00E1r Oliv\u00E9r\\Webprogi2023-2024\\feladat lotto\\feladat lotto\\Window1.xaml",
+              "RelativeDocumentMoniker": "feladat lotto\\Window1.xaml",
+              "ToolTip": "D:\\munkak\u00F6nyvt\u00E1r\\L\u00E9b\u00E1r Oliv\u00E9r\\Webprogi2023-2024\\feladat lotto\\feladat lotto\\Window1.xaml",
+              "RelativeToolTip": "feladat lotto\\Window1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-04T12:46:41.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\munkak\u00F6nyvt\u00E1r\\L\u00E9b\u00E1r Oliv\u00E9r\\Webprogi2023-2024\\feladat lotto\\feladat lotto\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "feladat lotto\\MainWindow.xaml",
+              "ToolTip": "D:\\munkak\u00F6nyvt\u00E1r\\L\u00E9b\u00E1r Oliv\u00E9r\\Webprogi2023-2024\\feladat lotto\\feladat lotto\\MainWindow.xaml",
+              "RelativeToolTip": "feladat lotto\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-04T12:46:13.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\munkak\u00F6nyvt\u00E1r\\L\u00E9b\u00E1r Oliv\u00E9r\\Webprogi2023-2024\\feladat lotto\\feladat lotto\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "feladat lotto\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\munkak\u00F6nyvt\u00E1r\\L\u00E9b\u00E1r Oliv\u00E9r\\Webprogi2023-2024\\feladat lotto\\feladat lotto\\MainWindow.xaml.cs",
+              "RelativeToolTip": "feladat lotto\\MainWindow.xaml.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwBkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T12:46:12.074Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
