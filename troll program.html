@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Troll</title>
+    <style>
+        #gomb{
+            position: relative;
+            
+            font-size: 50px;
+        }
+        body{
+            background-color: chocolate;
+        }
+    </style>
+</head>
+<body id="bodY">
+    <div id="doboz">
+        <button id="gomb" onmouseover="ramegy()" >Nyomj meg 😊</button>
+    </div>
+    <script>
+        
+
+        function ramegy(){
+            var bodsy= document.getElementById("bodY")
+            var bodyX = bodsy.style.width
+            var bodyY = bodsy.style.height
+            var top=Math.random(bodyY);
+                top=top*600;                
+            var left=Math.random(bodyX);
+                left=left*600;                      
+            document.getElementById("gomb").style.top=top+"px";                   
+            document.getElementById("gomb").style.left=left+"px";       
+        }
+    </script>
+</body>
+</html>
