@@ -1,0 +1,29 @@
+Regularis kifejezesek:
+
+-egy specialis karakterekbol állo formális nyelv 
+-aminek seguitsegevel egy szovegben mintara illesztest 
+	vizsgalunk vagy vmilyen muveletet vegzunk pl: csere darabol keres
+
+Minta (pattern) ezzel programouzunk hogy mire keressunk rá
+-ebben vannak specialis jelentesi a karaktereknek
+-vezerlo karakter v. normal karakter
+		. karakter illeszkedik mindenre ált karakter itt minden lehet
+		\w karakter jelolo karakter alfanumerikus karaktereket jeloli (betu szam also vonas)
+		\W nem alfanumerikus
+		\d szamjegyek \D nem szamjegy
+		\s space 
+A lehetseges karakterek listaja
+	.[] azok a karakterek lehetnek csak
+	[a-b]
+	[A-B]
+hanyszor fordul elo az anyagresz
+	? 0-1
+	* 0-barmennyi
+	+ 1-barmennyi
+	*?
+	+?
+	{n} annyi db elofordulas
+	{n,m} min max ertek
+csoportositas
+
+ a mintakat () csoposrtositjuk ha | ez a vagy hasznaljuk akkor tobb mintat csoport

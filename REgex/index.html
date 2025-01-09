@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="be">
+    <input type="button" value="Ellenörizd!" onclick="check()">
+    <div id="hiba"></div>
+    <script>
+        function check()
+        {
+            const minta =/^-?\d+[\.,]?\d+$/;
+            
+            //+36-70-123-1234
+
+            if(minta.test(document.getElementById("be").value))
+            {
+                document.getElementById("hiba").innerHTML="";
+
+            }   
+            else{
+                document.getElementById("hiba").innerHTML= "Hát ez nem jó báttya"
+            }      
+        }
+    </script>
+    
+</body>
+</html>
