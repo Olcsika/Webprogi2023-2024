@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kocka és Gombok</title>
+    <style>
+      
+        #cube {
+            width: 100px;
+            height: 100px;
+            background-color: #4CAF50;
+            position: absolute;
+            top: 200px;
+            left: 200px;
+        }
+        .button {
+            margin: 10px;
+            padding: 10px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+
+    <div id="cube"></div>
+
+
+    <button class="button" id="moveUp">Fel</button>
+    <button class="button" id="moveLeft">Balra</button>
+    <button class="button" id="moveRight">Jobbra</button>
+    <button class="button" id="moveDown">Le</button>
+
+
+<script>
+    let cube = document.getElementById('cube');
+    let moveUpButton = document.getElementById('moveUp');
+    let moveLeftButton = document.getElementById('moveLeft');
+    let moveRightButton = document.getElementById('moveRight');
+    let moveDownButton = document.getElementById('moveDown');
+
+    let posX = 200; // Kezdeti pozíció balra
+    let posY = 200; // Kezdeti pozíció felfelé
+
+    // Fel mozgás
+    moveUpButton.addEventListener('click', function() {
+        posY -= 50; // 50px-el feljebb
+        cube.style.top = posY + 'px';
+    });
+
+    // Le mozgás
+    moveDownButton.addEventListener('click', function() {
+        posY += 50; // 50px-el lejjebb
+        cube.style.top = posY + 'px';
+    });
+
+    // Balra mozgás
+    moveLeftButton.addEventListener('click', function() {
+        posX -= 50; // 50px-el balra
+        cube.style.left = posX + 'px';
+    });
+
+    // Jobbra mozgás
+    moveRightButton.addEventListener('click', function() {
+        posX += 50; // 50px-el jobbra
+        cube.style.left = posX + 'px';
+    });
+</script>
+
+</body>
+</html>
