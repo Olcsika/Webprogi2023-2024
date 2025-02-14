@@ -1,0 +1,90 @@
+Milyen alakú az Euler-féle gömb?
+
+a) Kocka
+b) Henger
+c) Gömb (jó válasz)
+d) Piramis
+Mi az a gravitációs gyorsulás Földön?
+
+a) 9,8 m/s² (jó válasz)
+b) 10 m/s²
+c) 8 m/s²
+d) 12 m/s²
+Mi a legnagyobb szám, amit egy számológép meg tud jeleníteni?
+
+a) 99999
+b) 1E+308
+c) 10^100
+d) 1E+99
+Melyik híres tudós dolgozott a relativitáselméleten?
+
+a) Isaac Newton
+b) Albert Einstein (jó válasz)
+c) Nikola Tesla
+d) Galileo Galilei
+Mi a nevezetes állandó a gravitációs törvényben?
+
+a) Planck-állandó
+b) Avogadro-állandó
+c) Gravitációs állandó (jó válasz)
+d) Boltzmann-állandó
+Mi a Pythagoras-tétel?
+
+a) Az átló négyzete egyenlő a két oldal négyzetösszegével (jó válasz)
+b) A háromszög területe egyenlő a két oldal szorzatának felével
+c) Az egyik oldal hosszúsága mindig kétszerese a másiknak
+d) Egy háromszögben a két egyenes oldal összege egyenlő a harmadik oldal hosszúságával
+Mi a legkisebb pozitív egész szám?
+
+a) 0
+b) 1 (jó válasz)
+c) -1
+d) 2
+Mi a fény sebessége vákuumban?
+
+a) 3,00 x 10^8 m/s (jó válasz)
+b) 1,00 x 10^6 m/s
+c) 2,99 x 10^6 m/s
+d) 3,00 x 10^9 m/s
+Mi az alapvető részecske, amely az elektromos töltést hordozza?
+
+a) Proton
+b) Neutron
+c) Elektron (jó válasz)
+d) Atommag
+Melyik ismert matematikus dolgozott a "P"-tételen?
+
+a) Gauss
+b) Pythagoras (jó válasz)
+c) Euclid
+d) Archimedes
+Mi a neve a háromszög oldalai és szögei közötti összefüggésnek?
+
+a) Pitagorasz-tétel
+b) Színkör
+c) Thales-tétel
+d) Szögfüggvények (jó válasz)
+Mi a Newton első törvénye?
+
+a) Az erő egyenesen arányos a sebességgel
+b) Az egyenes vonalú egyenletes mozgás állapotában maradnak, ha nincs külső erő (jó válasz)
+c) Az erő egyenesen arányos az erősséggel
+d) A tömeg egyenesen arányos az erővel
+Melyik szám a pi (π) értéke?
+
+a) 2,718
+b) 3,14159 (jó válasz)
+c) 1,618
+d) 1,414
+Milyen állandó szerepel a híres Einstein-egyenletben, E=mc²?
+
+a) Gravitációs állandó
+b) Elektromos állandó
+c) Fénysebesség (jó válasz)
+d) Avogadro-állandó
+Mi a Hubble-törvény?
+
+a) A távoli galaxisok vöröseltolódást mutatnak, mivel távolodnak tőlünk (jó válasz)
+b) Az univerzum végtelen
+c) A Föld mozgása meghatározza a csillagokat
+d) A gravitációs hullámok miatt az idő lassul

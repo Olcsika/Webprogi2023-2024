@@ -1,0 +1,5 @@
+1. óra -Összeálltunk mint a Power Rangers és tanakodtunk hogy milyen társast válasszunk(nehéz volt választani) megcsinátuk a közös trellót.(ITT VÓT MINDENKI)
+2. óra -Kiválasztottunk játékokat de egyik sem nyerte el a tetszésünket ezért az örök klasszikus honfoglalót választottuk az óra vége felé.(ITT VÓT MINDENKI)
+3. óra -Össze írtuk a honfoglalo kérdéseinek kategoriáját generaltattunk minden kategoriaba 15 db kerdest és txt-ként elmentettük,
+ mindemellet a játzékhoz tartozo leirast és tudnivalokat egy wordbe össze irtuk.(ITT VÓT MINDENKI)
+4. óra elkezdtük írni a htmlt (ITT VÓT MINDENKI)
