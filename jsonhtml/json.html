@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="init()" >
+    <!--wdngqdfpldn3be4044klro1thngu8zgwxliv6g0e
+    https://api.json-generator.com/templates/SRlUdoCCp5Jw/data
+    -->
+    
+    <script>
+        let token = "m7j21auadxooxblq53w4uh5dinielofcmhwmme52"
+        let url = "https://api.json-generator.com/templates/xxP6m9l2qR1e/data"
+        function init(){
+            letoltes()
+        }
+        function letoltes(){
+            let xhr = new XMLHttpRequest();            
+             xhr.onload= function(){
+                console.log(this.responseText);
+                const adatok=JSON.parse(this.responseText);
+                console.log(adatok);
+
+                kartya(adatok[0]);
+             };
+             xhr.open("GET",url + "?access_token=" + token);
+             xhr.send();
+             function kartya(adatokLista){
+                console.log(adatokLista)
+                const keret = document.createElement("div");
+                const nevKeret = document.createElement("div");
+                const nevSpan = document.createElement("span");
+                nevSpan.innerHTML = "Név: ";
+                const nevAdat = document.createElement("span");
+                nevAdat.innerHTML= adatokLista.profile.name;
+                nevKeret.appendChild(nevSpan);
+                nevKeret.appendChild(nevAdat);
+                keret.appendChild(nevKeret);
+                
+                const emailKeret = document.createElement("div");
+                const emailSpan = document.createElement("span");
+                emailSpan.innerHTML = "Email: ";
+                const emailAdat = document.createElement("span");
+                emailAdat.innerHTML= adatokLista.email;
+                emailKeret.appendChild(emailSpan);
+                emailKeret.appendChild(emailAdat);
+                keret.appendChild(emailKeret);
+
+                const leirasKeret = document.createElement("div");
+                const leirasSpan = document.createElement("span");
+                leirasSpan.innerHTML = "Leírás: ";
+                const leirasAdat = document.createElement("span");
+                leirasAdat.innerHTML= adatokLista.profile.about;
+                leirasKeret.appendChild(leirasSpan);
+                leirasKeret.appendChild(leirasAdat);
+                keret.appendChild(leirasKeret);
+
+                
+
+                document.body.appendChild(keret)
+            }
+        }
+    </script>
+</body>
+</html>

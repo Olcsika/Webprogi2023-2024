@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style .css">     
+</head>
+<body>
+    <script>
+        //xml object
+        const hivas = new XMLHttpRequest();
+        //callback function
+        hivas.onload=function()
+        {
+            //console.log(this.responseText)
+            const valtozo = JSON.parse(this.responseText)
+            console.log(valtozo)
+            let doboz = nevjegy(valtozo.results[0])
+            document.body.appendChild(doboz)
+
+       }
+        //az open
+        hivas.open("GET", "https://randomuser.me/api/")
+        //sendeles
+        hivas.send()
+        function nevjegy(adatok)
+        {
+            let tartaly = document.createElement("div")
+            const kep = document.createElement("img")
+            kep.src=adatok.picture.large;
+            document.body.appendChild(kep)
+            let nev = document.createElement("h2")
+            let email = document.createElement("h3")
+            email.innerHTML = adatok.email
+            nev.innerHTML= adatok.name.title +" "+adatok.name.first+" "+adatok.name.last;
+            tartaly.appendChild(nev)
+            tartaly.appendChild(email)
+
+            return tartaly;
+        }
+
+    </script>
+    
+</body>
+</html>
