@@ -1,50 +1,154 @@
 <!DOCTYPE html>
 <html lang="hu">
-<head>
-    <title>fake store</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="script.js"></script>
-     
-</head>
-<body>
-  
-<button onclick="togglePopup()">show popup</button>
+    <style>
+      body {
+        background-color: rgb(134, 128, 128);
+      }
 
-    <!-- div containing the popup -->
-    <div class="content">
-        <div onclick="togglePopup()" class="close-btn">
-            &times
-        </div>
-        <h3>Popup</h3>
+      .content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-width: 50%;
+        min-height: 50%;
+        text-align: center;
+        background-color: #e8eae6;
+        box-sizing: border-box;
+        padding: 10px;
+        z-index: 100;
+        display: none;
+      }
 
-        <p>
-            jQuery is an open source JavaScript library 
-            that simplifies the interactions between an
-            HTML/CSS document, or more precisely the 
-            Document Object Model (DOM), and JavaScript.
-            Elaborating the terms, jQuery simplifies 
-            HTML document traversing and manipulation, 
-            browser event handling, DOM animations, 
-            Ajax interactions, and cross-browser 
-            JavaScript development.
-        </p>
-    </div>
+      .close-btn {
+        position: absolute;
+        right: 20px;
+        top: 15px;
+        background-color: black;
+        color: white;
+        border-radius: 50%;
+        padding: 4px;
+      }
+    </style>
+  </head>
 
+  <body>
     <pre>
-        a termékekkel (products) kell munkát végezni
-töltsétek be a termékeket, és jelenítsétek meg a termékek nevét, képét leírását, valamilyen gyors, egyszerű css-sel megformázva. A képek ne legyenek túl nagyok!
-a termékekre kattintva az oldalon, a lista mellett mondjuk, jelenjen meg az ÖSSZES olyan adat, ami a felhasználóra tartozik, és semmi olyan ami csak a működéshez kell.
-a részleteket bemutató oldalon legyen egy ceruza ikon, amivel egy űrlapon lehet szerkeszteni az adatokat majd utána frissíteni
-legyen ugyanott egy kuka ikon, ami törli a szerverről (nem valós törlés lesz)
-ha nem mennek az ikonok, akkor sima gomb legyen
-legyen egy "új termék" gomb, amivel új elemet lehet hozzáadni
-    </pre>
-
-
-    <div class="container">
-        <div class="row" id="termekLista"></div>
+a termékekkel (products) kell munkát végeznitöltsétek be a termékeket, és jelenítsétek meg a termékek nevét, képét leírását, valamilyen gyors, egyszerű css-sel megformázva. A képek ne legyenek túl nagyok!a termékekre kattintva az oldalon, a lista mellett mondjuk, jelenjen meg az ÖSSZES olyan adat, ami a felhasználóra tartozik, és semmi olyan ami csak a működéshez kell.a részleteket bemutató oldalon legyen egy ceruza ikon, amivel egy űrlapon lehet szerkeszteni az adatokat majd utána frissítenilegyen ugyanott egy kuka ikon, ami törli a szerverről (nem valós törlés lesz)ha nem mennek az ikonok, akkor sima gomb legyenlegyen egy "új termék" gomb, amivel új elemet lehet hozzáadni</pre
+    >
+    <div>
+      <div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </div>
-</body>
+    <div class="content">
+      <div onclick="togglePopup()" class="close-btn">&times</div>
+      <div id="termekAdat"></div>
+    </div>
+
+    <script>
+      $.ajax({
+        url: "https://fakestoreapi.com/products",
+        dataType: "json",
+        success: function (data) {
+          console.log(data);
+          data.forEach((product) => {
+            console.log(product);
+            let kartya = termekKartya(
+              product.title,
+              product.image,
+              product.description,
+              product.id
+            );
+            $("#termekLista").append(kartya);
+          });
+        },
+      });
+
+      function togglePopup() {
+        $(".content").toggle();
+      }
+
+      function termekKartya(nev, kepurl, leiras, id) {
+        let keret = jQuery("<div>");
+        keret.prop("class", "card");
+        keret.addClass("col-3");
+        keret.on("click", function () {
+          $.ajax({
+            url: "https://fakestoreapi.com/products/" + id,
+            dataType: "json",
+            success: function (data) {
+
+              $("#termekAdat").html("");
+
+              let see = jQuery("<h3>");
+              see.html(data.title);
+              $("#termekAdat").append(see);
+
+              let ar = jQuery("<div>");
+              ar.html("Ár: " + data.price + "€");
+              $("#termekAdat").append(ar);
+
+              let leiras = jQuery("<p>")
+              leiras.html("Leírás: "+ data.description)
+              $("#termekAdat").append(leiras)
+
+              let kat = jQuery("<div>")
+              kat.html("Kategória: "+data.category)
+              $("#termekAdat").append(kat)
+
+              let kep = jQuery("<img>")
+              kep.prop("src",data.image)
+              $("#termekAdat").append(kep)
+
+              let rate = jQuery("<div>")
+              rate.html("Értékelés: $(data.rating.rate) ")
+              $("#termekAdat").append(rate)
+              togglePopup();
+            },
+          });
+        });
+
+        let kep = jQuery("<img>");
+        kep.prop("src", kepurl);
+        kep.prop("class", "card-img-top");
+        kep.prop("alt", nev);
+
+        let neve = jQuery("<h5>");
+        neve.html(nev);
+        neve.prop("class", "card-title");
+
+        let leir = jQuery("<p>");
+        leir.html(leiras);
+        leir.prop("class", "card-text");
+
+        let cardBody = jQuery("<div>");
+        cardBody.prop("class", "card-body");
+
+        cardBody.append(neve);
+        cardBody.append(leir);
+        keret.append(kep);
+        keret.append(cardBody);
+
+        return keret;
+      }
+    </script>
+    <div class="container">
+      <div class="row" id="termekLista"></div>
+    </div>
+  </body>
 </html>

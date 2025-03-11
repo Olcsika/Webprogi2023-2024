@@ -15,13 +15,35 @@ function termekKartya(id,nev,kepUrl,leiras) {
     let kartya = jQuery("<div>");
     kartya.prop("class","card");
     kartya.addClass("col-3");
-    kartya.on("click", function(){togglePopup()});
+    kartya.on("click", function(){});
     
     $.ajax({
         url: "https://fakestoreapi.com/products/id",
         dataType: "json",
         success: function (data) {
             console.log(data);
+
+            $("$termekAdat").html("")
+
+            let cim=jQuery("<h3>")
+            cim.html(data.title)
+            $("#termekAdat").append(cim)
+
+            let ar=jQuery("<div>")
+            ar.html("Ár: €",data.price)
+            $("#termekAdat").append(ar)
+
+            togglePopup()
+            /*
+            <h3>title</h3>
+            <div>Ár: price</div>
+            <p>Leírás: description</p>
+            <p>Kategóória: category</p>
+            <img src="">
+            <div>Értékelés: rate (count db)</div>
+            */
+
+
             data.forEach(product => {
                 console.log(product);
                 let kartya = termekKartya(product.title, product.image, product.description);
