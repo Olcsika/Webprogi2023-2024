@@ -1,31 +1,47 @@
 header{
-    background-image: url("img/bg.jpg");
+    background-image: url(img/bg.jpg);
     background-position: center;
-    background-size: cover; 
+    background-size: cover;
     height: 600px;
+
     
 }
 h1{
-    
-    font-family: Cambria serif;
+    font-family: Cambria, serif;
+    font-size: 5em;
     text-transform: uppercase;
     letter-spacing: 2px;
-    padding:  10px 20px;
-    color:turquoise;
-    background-color: rgb(255,255,255,35%);
-    font-size: 5rem;
-    
+    padding: 10px 20px;
+    color: turquoise;
+    background-color: rgba(255, 255, 255, 0.35);
 
 }
 h1 div{
+   
     font-size: 2rem;
     font-style: italic;
     letter-spacing: normal;
     text-transform: none;
+
     display: block;
 }
-@media only screen and (max-width:768px){
+ul{
+    list-style-image: url(img/icon.png);
+}
+
+@media only screen and(max-width: 768px){
+
     h1{
         font-size: 3em;
     }
+}
+#navbar{
+    background-color: rgba(18, 112, 132);
+    color: white;
+}
+h3{
+    font-variant: small-caps;
+}
+#kep{
+    box-shadow: 2px 2px 5px black;
 }
