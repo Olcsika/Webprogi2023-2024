@@ -1,27 +1,60 @@
-header{
+header
+{
     background-image: url(img/bg.jpg);
     background-position: center;
     background-size: cover;
     height: 600px;
 }
-h1{
+
+h1
+{
     font-family: Cambria, serif;
     font-size: 5em;
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 10px 20px;
     color: turquoise;
-    background-color: rgba(255, 255, 255, 0.35);
+    background-color: rgba(255, 255, 255, 35%)
 }
-h1 div{
+h1 div
+{
     font-size: 2rem;
     font-style: italic;
     letter-spacing: normal;
     text-transform: none;
-    
 }
-@media only screen and(max-width: 768px){
+#navBar
+{
+    background-color: rgb(18, 112, 132) 
+}
+#felsorolas
+{
+    line-height: 25px;
+    list-style-image: url(img/icon.png)
+}
+#reszeiKep
+{
+    box-shadow: 2px 2px 5px black
+}
+h2
+{
+    font-variant: small-caps;
+}
+@media only screen and (max-width: 768px) 
+{
     h1{
         font-size: 3em;
-    }
+    }    
+}
+#tovabbreszlet{
+    
+    position: relative;
+    left: 1150px;
+}
+table tr {
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+    text-align: center;
 }
