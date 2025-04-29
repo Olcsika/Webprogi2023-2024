@@ -1,0 +1,23 @@
+body{
+    background-image: url(../img/bg_pizza.jpg);
+    background-size: cover;
+    
+}
+.navbar{
+    background-color: #81150b;
+}
+.navbar a {
+    color: white;
+}
+p{
+    color: white;
+}
+h2{
+    color: #5d6a09;
+}
+@media only screen and(max-width: 768px){
+
+    h1{
+        font-size: 50px;
+    }
+}
